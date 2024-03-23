@@ -94,7 +94,7 @@
 }
 @media screen and (max-width:900px) {
     .header{
-        gap: 90px;
+        gap: 140px;
     }
     .header_main{
         height: 70px;
