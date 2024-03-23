@@ -15,7 +15,6 @@
         font-size: 45px;
         font-weight: 300;
         padding-top: 200px;
-        text-align: center;
 }
 .welcome span{
     font-size: 55px;
@@ -50,5 +49,8 @@
         align-items: center;
         justify-content: center;
         width: 80%;
+    }
+    .welcome h1{
+        text-align: center;
     }
 }
