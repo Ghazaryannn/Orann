@@ -10,6 +10,16 @@
     max-width: 1280px;
     margin:0 auto;
   }
+  .loc{
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 25px;
+  }
+  .phone{
+    color: #ffffff;
+    margin-right: 10px;
+    font-size: 25px;
+  }
   
   .footer .footer_left,
   .footer .footer_center,
@@ -17,7 +27,7 @@
     display: inline-block;
     vertical-align: top;
   }
-  
+
   
   /* footer left*/
   
@@ -85,6 +95,14 @@
     font-size: 17px;
     line-height: 38px;
   }
+  .menu ul{
+    list-style: none;
+    color: #ffffff;
+  }
+  .menu ul li{
+    margin-top: 15px;
+  }
+
   
   .footer .footer_center p {
     display: inline-block;
@@ -136,12 +154,10 @@
     color: inherit;
   }
   
-  .footer .menu a:hover {
-    color: #0099ff;
-  }
+
   
   .footer .name {
-    color: #0099ff;
+    color: #fefefe;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
