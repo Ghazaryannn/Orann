@@ -131,6 +131,16 @@
         font-size: 18px;
         position: relative;
     }
+    .open ul li::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #eee;
+    }
     .header_center_service ul {
         flex-direction: column;
         font-size: 18px;
