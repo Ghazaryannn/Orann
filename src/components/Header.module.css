@@ -96,6 +96,9 @@
     .header{
         gap: 90px;
     }
+    .header_main{
+        height: 70px;
+    }
     .header_center_service{
         position: absolute;
         top: 100%;
@@ -148,7 +151,7 @@
         transition: all 1s;
     }
     .header_left_logo img{
-        width: 140px;
+        width: 135px;
         height: 43px;
     }
     .header_menu_mobile{
@@ -189,6 +192,7 @@
         font-size: 10px;
     }
 }
+
 @media screen and (max-height:400px){
     .header{
         gap: 500px;
