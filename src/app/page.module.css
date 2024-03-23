@@ -41,14 +41,22 @@
     .welcome{
         padding: 0 25px;
     }
+    .welcome h1{
+        font-size: 35px;
+        color: #eee;
+    }
     .welcome span{
-        font-size: 60px;
+        font-size: 40px;
+        color: #FE0004;
+        font-weight: bold;
     }
     .btn{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 80%;
+        background-color: aliceblue;
+        color: #FE0004;
     }
     .welcome h1{
         text-align: center;
