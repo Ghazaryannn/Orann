@@ -43,7 +43,7 @@
     }
     .welcome h1{
         font-size: 35px;
-        color: #eee;
+        color: #eeeeee9b;
     }
     .welcome span{
         font-size: 40px;
@@ -55,8 +55,9 @@
         align-items: center;
         justify-content: center;
         width: 80%;
-        background-color: aliceblue;
-        color: #FE0004;
+        background-color:  #eeeeee9b;
+        color: #000000;
+        font-weight: bold;
     }
     .welcome h1{
         text-align: center;
