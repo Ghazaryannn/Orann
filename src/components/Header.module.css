@@ -20,6 +20,7 @@
 }
 .header{
     max-width: 1280px;
+    height: 70px;
     margin:  0 auto;
     display: flex;
     justify-content: space-between;
@@ -93,7 +94,7 @@
 }
 @media screen and (max-width:900px) {
     .header{
-        gap: 60px;
+        gap: 90px;
     }
     .header_center_service{
         position: absolute;
@@ -147,8 +148,8 @@
         transition: all 1s;
     }
     .header_left_logo img{
-        width: 150px;
-        height: 45px;
+        width: 100px;
+        height: 33px;
     }
     .header_menu_mobile{
         display: block;
@@ -172,9 +173,11 @@
         display: flex;
         transition: all 1s;
         margin-bottom: 10px;
+        gap: 10px;
     }
     .openn .location {
         display: flex;
+        gap: 10px;
     }
     
 }
