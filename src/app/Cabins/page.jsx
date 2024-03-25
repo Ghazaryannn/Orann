@@ -1,6 +1,4 @@
 import React from 'react'
-import img1 from '../../../public/kupe1.jpg'
-import img2 from '../../../public/kupe2.jpg'
 import img3 from '../../../public/kupe3.jpg'
 import img4 from '../../../public/kupe4.jpg'
 import img5 from '../../../public/kupe5.jpeg'
@@ -27,12 +25,6 @@ const Cabins = () => {
                 </div>
                 <div className={styles.wide}>
                     <Image src={img3} alt="img" className={styles.grid_img} />
-                </div>
-                <div className=''>
-                    <Image src={img1} alt="img" className={styles.grid_img} />
-                </div>
-                <div className=''>
-                    <Image src={img2} alt="img" className={styles.grid_img} />
                 </div>
             </div>
     </div>
