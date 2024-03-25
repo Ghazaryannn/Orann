@@ -10,7 +10,7 @@ const Cards = () => {
     return (
         <div className={styles.cards_main}>
             <div className={styles.card}>
-                <Image src={img} alt="img" />
+                <Image src={img} alt="img" width={100}/>
                 <h3>Լավագույն որակի <span>սնունդ</span></h3>
                 <p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio illum quam fugiat veritatis odit. Eaque, animi enim, error libero odit alias, in repellendus sapiente neque dolor repudiandae adipisci blanditiis perspiciatis?</p>
                 <button className={styles.btnn}>Տեսնել <FaAngleDown /></button>

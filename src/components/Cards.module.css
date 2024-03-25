@@ -21,6 +21,8 @@
 }
 .card img{
     margin-top: 20px;
+    width: 40px;
+    height: 40px;
 }
 .card h3{
     font-family: "Manrope", sans-serif;
