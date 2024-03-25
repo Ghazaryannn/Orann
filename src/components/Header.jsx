@@ -13,7 +13,7 @@ const Header = () => {
     <header className={styles.header_main}>
       <div className={styles.header}>
         <div className={styles.header_left_logo}>
-          <Image src={logo} width={200} />
+          <Image src={logo} width={200} alt='img'/>
         </div>
         <div className={open ? styles.open : styles.header_center_service}>
           <ul>
