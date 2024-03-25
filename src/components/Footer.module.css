@@ -154,15 +154,15 @@
     color: inherit;
   }
   
-
-  
   .footer .name {
     color: #fefefe;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
   }
-  @media (max-width: 767px) {
+
+
+  @media (max-width: 900px) {
     .footer {
       font-size: 14px;
     }
