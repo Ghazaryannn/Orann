@@ -8,7 +8,7 @@ import img6 from '../../../public/qotej6.jpg'
 import img7 from '../../../public/qotej7.jpg'
 import img8 from '../../../public/qotej8.jpg'
 import Image from 'next/image'
-import styles from '../cottage/page.module.css'
+import styles from '../Cottage/page.module.css'
 
 const Cottage = () => {
   return (
