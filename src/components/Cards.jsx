@@ -17,7 +17,7 @@ const Cards = () => {
             </div>
             <div className={styles.card}>
                 <FaHome className={styles.home} />
-                <h3>Հարմարավետ <span>համարներ</span></h3>
+                <h3>Հարմարավետ <span>քոթեջներ</span></h3>
                 <p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio illum quam fugiat veritatis odit. Eaque, animi enim, error libero odit alias, in repellendus sapiente neque dolor repudiandae adipisci blanditiis perspiciatis?</p>
                 <Link href='/Cottage'><button className={styles.btnn}>Տեսնել <FaAngleDown /></button></Link>
             </div>

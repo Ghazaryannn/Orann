@@ -13,7 +13,6 @@ import styles from '../Cottage/page.module.css'
 const Cottage = () => {
   return (
     <div className={styles.cottage}>
-      <h1>Մեր համարները</h1>
       <div className={styles.grid_wrapper}>
             <div className={styles.big} >
                 <Image src={img1} alt="img" className={styles.grid_img}/>
