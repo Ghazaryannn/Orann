@@ -25,7 +25,7 @@ const Cards = () => {
                 <LuPartyPopper className={styles.party} />
                 <h3>Հանդիսությունների <span>սրահ</span></h3>
                 <p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio illum quam fugiat veritatis odit. Eaque, animi enim, error libero odit alias, in repellendus sapiente neque dolor repudiandae adipisci blanditiis perspiciatis?</p>
-                <button className={styles.btnn}>Տեսնել <FaAngleDown /></button>
+                <Link href='/Banquet'><button className={styles.btnn}>Տեսնել<FaAngleDown /></button></Link>
             </div>
         </div>
     )
