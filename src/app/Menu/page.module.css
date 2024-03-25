@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap');
+
+.menu{
+    height: 100vh;
+}
+.menu_header{
+    background: linear-gradient(#885959, #000000);
+    width: 100%;
+    height: 80px;
+    margin-top: 80px;
+    border-radius: 40px 40px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.menu_header p{
+    background-color: #FE0004;
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+}
+.prod{
+    width: 90%;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-image: url('../../../public/naxautest1.jpg');
+}
