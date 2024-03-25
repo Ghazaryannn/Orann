@@ -5,7 +5,7 @@
     justify-content: center;
     margin-top: -320px;
     gap: 20px;
-    z-index: 999;
+    z-index: 9999;
 }
 .card{
     width: 500px;
