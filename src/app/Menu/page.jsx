@@ -14,6 +14,9 @@ const Menu = () => {
         <div className={styles.grilled}>
             <h2>Թոնրի խորոված</h2>
         </div>
+        <div className={styles.hotdish}>
+            <h2>Տաք ուտեստներ</h2>
+        </div>
     </div>
   )
 }
