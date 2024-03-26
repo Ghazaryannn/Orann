@@ -16,8 +16,8 @@ const Menu = () => {
     return (
         <div className={styles.menu}>
             <div className={styles.menu_header}>
-                <p onClick={foo}>Ուտեստներ</p>
-                <p onClick={fooo}>Ըմպելիքներ</p>
+                <p onClick={foo} className={foods ? styles.active : ''}>Ուտեստներ</p>
+                <p onClick={fooo} className={drinks ? styles.active: ''}>Ըմպելիքներ</p>
             </div>
             {
                 foods ?
