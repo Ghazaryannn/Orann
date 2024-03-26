@@ -12,14 +12,14 @@
     background: linear-gradient(#fe000498, #000);
 }
 .menu_header p{
-    background-color: #eeeeee2e;
+    background-color: #eeeeee51;
     color: #ffffff;
     font-size: 20px;
     padding: 15px;
     height: 50px;
     border-radius: 50px;
-    letter-spacing: 1.3px;
-    font-weight: bold;
+    letter-spacing: .5px;
+    font-weight: normal;
 }
 .appetizer{
     height: 150px;
