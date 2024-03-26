@@ -6,7 +6,7 @@ import styles from "./page.module.css";
 import Link from "next/link";
 
 
-export default function Home() {
+const Home = ()  => {
   return (
     <main className={styles.main}>
       <div className={styles.bc_main}>
@@ -20,3 +20,5 @@ export default function Home() {
     </main>
   );
 }
+
+export default Home

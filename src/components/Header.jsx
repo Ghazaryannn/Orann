@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoLocation } from "react-icons/io5";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
-import Head from 'next/head';
 import styles from './Header.module.css'
 import Link from 'next/link';
 
@@ -16,7 +15,7 @@ const Header = () => {
       
       <div className={styles.header}>
         <div className={styles.header_left_logo}>
-          <Image src={logo} width={200} alt='img' />
+          <Link href='/'><Image src={logo} width={200} alt='img' /></Link>
         </div>
         <div className={open ? styles.open : styles.header_center_service}>
           <ul>

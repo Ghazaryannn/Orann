@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 import img from '../../public/logo.png'
+import Link from 'next/link';
 import styles from './Footer.module.css'
 
 const Footer = () => {
@@ -21,8 +22,7 @@ const Footer = () => {
         <Image src={img} alt="logo"  width={200}/>
         <div className={styles.menu}>
           <ul>
-            <li>Գլխավոր</li>
-            <li>Մենյու</li>
+           <li> <Link href='/Menu'>Մենյու</Link></li>
           </ul>
         </div>
         <p className={styles.name}> Orran &copy; 2024</p>
