@@ -17,6 +17,18 @@ const Menu = () => {
         <div className={styles.hotdish}>
             <h2>Տաք ուտեստներ</h2>
         </div>
+        <div className={styles.salate}>
+            <h2>Աղցաններ</h2>
+        </div>
+        <div className={styles.cans}>
+            <h2>Պահածոններ</h2>
+        </div>
+        <div className={styles.souse}>
+            <h2>Սննդային հավելումներ</h2>
+        </div>
+        <div className={styles.pasta}>
+            <h2>Պաստաներ</h2>
+        </div>
     </div>
   )
 }
