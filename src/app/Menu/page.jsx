@@ -1,36 +1,76 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import styles from './page.module.css'
 
 const Menu = () => {
-  return (
-    <div className={styles.menu}>
-        <div className={styles.menu_header}>
-            <p>Ուտեստներ</p>
-            <p>Ըմպելիքներ</p>
+    const [foods, setFoods] = useState(true)
+    const [drinks, setDrinks] = useState(false)
+    const foo = () => {
+        setFoods(true)
+        setDrinks(false)
+    }
+    const fooo = () => {
+        setFoods(false)
+        setDrinks(true)
+    }
+    return (
+        <div className={styles.menu}>
+            <div className={styles.menu_header}>
+                <p onClick={foo}>Ուտեստներ</p>
+                <p onClick={fooo}>Ըմպելիքներ</p>
+            </div>
+            {
+                foods ?
+                    <div className={styles.foods}>
+                        <div className={styles.appetizer}>
+                            <h2>Նախաուտեստներ</h2>
+                        </div>
+                        <div className={styles.grilled}>
+                            <h2>Թոնրի խորոված</h2>
+                        </div>
+                        <div className={styles.hotdish}>
+                            <h2>Տաք ուտեստներ</h2>
+                        </div>
+                        <div className={styles.salate}>
+                            <h2>Աղցաններ</h2>
+                        </div>
+                        <div className={styles.cans}>
+                            <h2>Պահածոններ</h2>
+                        </div>
+                        <div className={styles.souse}>
+                            <h2>Սննդային հավելումներ</h2>
+                        </div>
+                        <div className={styles.pasta}>
+                            <h2>Պաստաներ</h2>
+                        </div>
+                    </div> : ''
+            }
+            {
+                drinks ? 
+                <div className={styles.drinks}>
+                    <div className={styles.drink}>
+                            <h2>Զովացուցիչ ըմպելիքներ</h2>
+                    </div>
+                    <div className={styles.wine}>
+                            <h2>Գինի</h2>
+                    </div>
+                    <div className={styles.vodka}>
+                            <h2>Օղի</h2>
+                    </div>
+                    <div className={styles.konyak}>
+                            <h2>Կոնյակ</h2>
+                    </div>
+                    <div className={styles.piva}>
+                            <h2>Գարեջուր</h2>
+                    </div>
+                    
+                </div> : ''
+            }
+            
+
+
         </div>
-        <div className={styles.appetizer}>
-            <h2>Նախաուտեստներ</h2>
-        </div>
-        <div className={styles.grilled}>
-            <h2>Թոնրի խորոված</h2>
-        </div>
-        <div className={styles.hotdish}>
-            <h2>Տաք ուտեստներ</h2>
-        </div>
-        <div className={styles.salate}>
-            <h2>Աղցաններ</h2>
-        </div>
-        <div className={styles.cans}>
-            <h2>Պահածոններ</h2>
-        </div>
-        <div className={styles.souse}>
-            <h2>Սննդային հավելումներ</h2>
-        </div>
-        <div className={styles.pasta}>
-            <h2>Պաստաներ</h2>
-        </div>
-    </div>
-  )
+    )
 }
 
 export default Menu

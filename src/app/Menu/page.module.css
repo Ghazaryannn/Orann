@@ -250,3 +250,169 @@
     text-align: center;
     z-index: 999;
 }
+
+.drink{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/drinks.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.drink::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.drink h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.wine{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/wine.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.wine::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.wine h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.vodka{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/vodka.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.vodka::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.vodka h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.konyak{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/konyak.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.konyak::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.konyak h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.piva{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/piva.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.piva::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.piva h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
