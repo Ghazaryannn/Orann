@@ -27,7 +27,7 @@ const Header = () => {
         </div>
         <div className={open ? styles.openn : styles.header_right_contact}>
           <div className={styles.phone}>
-            <FaPhoneAlt className='phone_icon' /><Link href="tel:+374-93-37-00-77">+374 93 3700777</Link>
+            <FaPhoneAlt className='phone_icon' /><a href="tel">+374 93 370077</a>
           </div>
           <span className={styles.span}>|</span>
           <div className={styles.location}>
