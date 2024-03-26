@@ -33,10 +33,10 @@ const Menu = () => {
                             <h2>Տաք ուտեստներ</h2>
                         </div>
                         <div className={styles.salate}>
-                            <h2>Աղցաններ</h2>
+                            <h2>Աղցաներ</h2>
                         </div>
                         <div className={styles.cans}>
-                            <h2>Պահածոններ</h2>
+                            <h2>Պահածոներ</h2>
                         </div>
                         <div className={styles.souse}>
                             <h2>Սննդային հավելումներ</h2>
