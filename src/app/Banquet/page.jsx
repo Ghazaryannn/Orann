@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import img1 from '../../../public/srah1.jpg'
 import img2 from '../../../public/srah2.jpg'
