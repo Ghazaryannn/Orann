@@ -9,15 +9,15 @@ import Head from 'next/head';
 import styles from './Header.module.css'
 
 const Header = () => {
-  const [open, setOpen] = useState(false )
+  const [open, setOpen] = useState(false)
   return (
     <header className={styles.header_main}>
       <Head>
-       <meta name="format-detection" content="telephone=no"/>
+      <meta name="format-detection" content="telephone=no"/>
       </Head>
       <div className={styles.header}>
         <div className={styles.header_left_logo}>
-          <Image src={logo} width={200} alt='img'/>
+          <Image src={logo} width={200} alt='img' />
         </div>
         <div className={open ? styles.open : styles.header_center_service}>
           <ul>
@@ -37,7 +37,7 @@ const Header = () => {
         </div>
         <div className={styles.header_menu_mobile} onClick={() => setOpen(!open)}>
           {
-            open ? <IoMdClose/> : <IoMdMenu />
+            open ? <IoMdClose /> : <IoMdMenu />
           }
         </div>
       </div>
