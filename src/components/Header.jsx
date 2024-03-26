@@ -12,9 +12,7 @@ const Header = () => {
   const [open, setOpen] = useState(false)
   return (
     <header className={styles.header_main}>
-      <Head>
-      <meta name="format-detection" content="telephone=no"/>
-      </Head>
+      
       <div className={styles.header}>
         <div className={styles.header_left_logo}>
           <Image src={logo} width={200} alt='img' />

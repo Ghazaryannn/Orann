@@ -14,6 +14,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+      <meta name="format-detection" content="telephone=no"/>
+      </Head>
       <body className={inter.className}>
         <Header />
         {children}
