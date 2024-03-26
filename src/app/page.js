@@ -1,4 +1,7 @@
+'use client'
+
 import Cards from "@/components/Cards";
+import { FloatButton } from 'antd';
 import styles from "./page.module.css";
 import Link from "next/link";
 
@@ -13,6 +16,7 @@ export default function Home() {
         </div>
       </div>
       <Cards />
+      <FloatButton.BackTop />
     </main>
   );
 }

@@ -5,12 +5,13 @@ import img5 from '../../../public/kupe5.jpeg'
 import img6 from '../../../public/kupe6.jpg'
 import img7 from '../../../public/kupe7.jpg'
 import Image from 'next/image'
+import { FloatButton } from 'antd';
 import styles from './paje.module.css'
 
 const Cabins = () => {
-  return (
-    <div className={styles.cabins}>
-        <div className={styles.grid_wrapper}>
+    return (
+        <div className={styles.cabins}>
+            <div className={styles.grid_wrapper}>
                 <div className={styles.big} >
                     <Image src={img7} alt="img" className={styles.grid_img} />
                 </div>
@@ -27,8 +28,9 @@ const Cabins = () => {
                     <Image src={img3} alt="img" className={styles.grid_img} />
                 </div>
             </div>
-    </div>
-  )
+            <FloatButton.BackTop />
+        </div>
+    )
 }
 
 export default Cabins

@@ -8,37 +8,38 @@ import img6 from '../../../public/qotej6.jpg'
 import img7 from '../../../public/qotej7.jpg'
 import img8 from '../../../public/qotej8.jpg'
 import Image from 'next/image'
+import { FloatButton } from 'antd';
 import styles from '../Cottage/page.module.css'
 
 const Cottage = () => {
-  return (
-    <div className={styles.cottage}>
-      <div className={styles.grid_wrapper}>
-            <div className={styles.big} >
-                <Image src={img1} alt="img" className={styles.grid_img}/>
+    return (
+        <div className={styles.cottage}>
+            <div className={styles.grid_wrapper}>
+                <div className={styles.big} >
+                    <Image src={img1} alt="img" className={styles.grid_img} />
+                </div>
+                <div className={styles.wide}>
+                    <Image src={img6} alt="img" className={styles.grid_img} />
+                </div>
+                <div className={styles.tall}>
+                    <Image src={img4} alt="img" className={styles.grid_img} />
+                </div>
+                <div className={styles.tall}>
+                    <Image src={img5} alt="img" className={styles.grid_img} />
+                </div>
+                <div className={styles.wide}>
+                    <Image src={img3} alt="img" className={styles.grid_img} />
+                </div>
+                <div className=''>
+                    <Image src={img7} alt="img" className={styles.grid_img} />
+                </div>
+                <div className=''>
+                    <Image src={img2} alt="img" className={styles.grid_img} />
+                </div>
             </div>
-            <div className={styles.wide}>
-                <Image src={img6} alt="img" className={styles.grid_img}/>
-            </div>
-            <div className={styles.tall}>
-                <Image src={img4} alt="img" className={styles.grid_img}/>
-            </div>
-            <div className={styles.tall}>
-                <Image src={img5} alt="img" className={styles.grid_img}/>
-            </div>
-            <div className={styles.wide}>
-                <Image src={img3} alt="img" className={styles.grid_img}/>
-            </div>
-            <div className=''>
-                <Image src={img7} alt="img" className={styles.grid_img}/>
-            </div>
-            <div className=''>
-                <Image src={img2} alt="img" className={styles.grid_img}/>
-            </div>
+            <FloatButton.BackTop />
         </div>
-        
-    </div>
-  )
+    )
 }
 
 export default Cottage

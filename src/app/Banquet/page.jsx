@@ -8,6 +8,7 @@ import img6 from '../../../public/srah6.jpg'
 import img7 from '../../../public/srah7.jpg'
 import img8 from '../../../public/srah8.jpg'
 import Image from 'next/image'
+import { FloatButton } from 'antd';
 import styles from './page.module.css'
 
 const Banquet = () => {
@@ -36,6 +37,7 @@ const Banquet = () => {
                     <Image src={img2} alt="img" className={styles.grid_img} />
                 </div>
             </div>
+            <FloatButton.BackTop />
         </div>
     )
 }
