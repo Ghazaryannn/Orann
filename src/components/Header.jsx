@@ -7,6 +7,7 @@ import { IoLocation } from "react-icons/io5";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 import Head from 'next/head';
 import styles from './Header.module.css'
+import Link from 'next/link';
 
 const Header = () => {
   const [open, setOpen] = useState(false)
@@ -26,7 +27,7 @@ const Header = () => {
         </div>
         <div className={open ? styles.openn : styles.header_right_contact}>
           <div className={styles.phone}>
-            <FaPhoneAlt className='phone_icon' /><p>+374 93 370077</p>
+            <FaPhoneAlt className='phone_icon' /><Link href="tel:+374-93-37-00-77">+374 93 370077</Link>
           </div>
           <span className={styles.span}>|</span>
           <div className={styles.location}>
