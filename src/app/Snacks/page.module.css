@@ -30,8 +30,11 @@
     color: #eee;
     margin-top: 10px;
     position: absolute;
-    bottom: 75px;
+    bottom: 40px;
     right: 10px;
+}
+.snack_card img{
+    object-fit: cover;
 }
 
 @media screen and (max-width:900px){
