@@ -1,15 +1,15 @@
 import React from 'react'
-import { drinks } from '@/db'
+import { vodka } from '@/db'
 import Image from 'next/image'
 import styles from './page.module.css'
 
-const Drink = () => {
-    return (
-        <div className={styles.drinks}>
-            {
-                drinks.map((prod) => {
+const Vodka = () => {
+  return (
+    <div className={styles.vodka}>
+         {
+                vodka.map((prod) => {
                     return (
-                        <div className={styles.drinks_card} key={prod.id}>
+                        <div className={styles.vodka_card} key={prod.id}>
                             <Image width={300} height={200} src={prod.image} alt='img' />
                             <h2>{prod.name}</h2>
                             <p>{prod.size}</p>
@@ -18,8 +18,8 @@ const Drink = () => {
                     )
                 })
             }
-        </div>
-    )
+    </div>
+  )
 }
 
-export default Drink
+export default Vodka

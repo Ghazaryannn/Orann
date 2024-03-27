@@ -59,12 +59,16 @@ const Menu = () => {
                             <h2>Զովացուցիչ ըմպելիքներ</h2>
                         </div>
                         </Link>
+                        <Link href='/Wine'>
                         <div className={styles.wine}>
                             <h2>Գինի</h2>
                         </div>
+                        </Link>
+                        <Link href='/Vodka'>
                         <div className={styles.vodka}>
                             <h2>Օղի</h2>
                         </div>
+                        </Link>
                         <div className={styles.konyak}>
                             <h2>Կոնյակ</h2>
                         </div>
