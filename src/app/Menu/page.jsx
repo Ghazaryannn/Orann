@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import { FloatButton } from 'antd';
+import Link from 'next/link';
 import styles from './page.module.css'
 
 const Menu = () => {
@@ -23,9 +24,11 @@ const Menu = () => {
             {
                 foods ?
                     <div className={styles.foods}>
+                        <Link href='/Snacks'>
                         <div className={styles.appetizer}>
-                            <h2>Նախաուտեստներ</h2>
-                        </div>
+                                <h2>Նախաուտեստներ</h2>
+                            </div>
+                        </Link>
                         <div className={styles.grilled}>
                             <h2>Թոնրի խորոված</h2>
                         </div>
