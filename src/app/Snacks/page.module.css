@@ -20,6 +20,7 @@
 }
 .snack_card h2 {
     color: #eee;
+    margin-top: 10px;
 }
 .snack_card b{
     color: #c3c2c2;
@@ -40,5 +41,6 @@
 @media screen and (max-width:900px){
     .snacks{
         flex-direction: column;
+        margin-top: 40px;
     }
 }
