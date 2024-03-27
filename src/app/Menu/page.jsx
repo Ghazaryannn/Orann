@@ -29,9 +29,11 @@ const Menu = () => {
                                 <h2>Նախաուտեստներ</h2>
                             </div>
                         </Link>
+                        <Link href='/Grilled'>
                         <div className={styles.grilled}>
                             <h2>Թոնրի խորոված</h2>
                         </div>
+                        </Link>
                         <div className={styles.hotdish}>
                             <h2>Տաք ուտեստներ</h2>
                         </div>

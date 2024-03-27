@@ -1,4 +1,4 @@
-.snacks{
+.grilled{
     width: 100%;
     height: 100%;
     margin-top: 100px;
@@ -9,7 +9,7 @@
     padding: 10px;
 }
 
-.snack_card{
+.grilled_card{
     width: 90%;
     height: 300px;
     display: flex;
@@ -19,28 +19,28 @@
     border-radius: 30px;
     position: relative;
 }
-.snack_card h2 {
+.grilled_card h2 {
     color: #eee;
     margin-top: 10px;
 }
-.snack_card b{
+.grilled_card b{
     color: #c3c2c2;
     margin-top: 25px;
     font-size: 20px;
 }
-.snack_card p{
+.grilled_card p{
     color: #eee;
     margin-top: 10px;
     position: absolute;
     bottom: 25px;
     right: 10px;
 }
-.snack_card img{
+.grilled_card img{
     object-fit: cover;
 }
 
 @media screen and (max-width:900px){
-    .snacks{
+    .grilled{
         flex-direction: column;
         margin-top: 40px;
     }

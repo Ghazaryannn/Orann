@@ -110,3 +110,106 @@ export const snacks = [
         price: '500 Դ'
     },
 ]
+
+export const grilled = [
+    {
+        id:1,
+        name: 'Խոզի խառը',
+        image:'/xozi_xary.jpg',
+        description: '',
+        size: '(1 կգ)',
+        price: '6500 Դ'
+    },
+    {
+        id:2,
+        name: 'Խոզի մատ չալաղաջ',
+        image:'/xozi_mat.jpg',
+        description: '',
+        size: '(1 կգ)',
+        price: '7500 Դ'
+    },
+    {
+        id:3,
+        name: 'Հորթ',
+        image:'/hort.jpg',
+        description: '',
+        size: '(1 կգ)',
+        price: '7500 Դ'
+    },
+    {
+        id:4,
+        name: 'Հորթի չալաղաջ',
+        image:'/hort_chalaxach.jpg',
+        size: '(1 կգ)',
+        description: '',
+        price: '10500 Դ'
+    },
+    {
+        id:5,
+        name: 'Գառ',
+        image:'/gar.jpg',
+        description: '',
+        size: '(1 կգ)',
+        price: '7500 Դ'
+    },
+    {
+        id:6,
+        name: 'Նապաստակ',
+        image:'/napastak.jpg',
+        description: '',
+        price: '6500 Դ'
+    },
+    {
+        id:7,
+        name: 'Լոր',
+        image:'/lor.jpg',
+        description: '',
+        price: '1000 Դ'
+    },
+    {
+        id:8,
+        name: 'ճուտ',
+        image:'/chut.jpg',
+        description: '',
+        price: '1800 Դ'
+    },
+    {
+        id:9,
+        name: 'Քաբաբ հավ',
+        image:'/qabab.jpg',
+        description: '',
+        price: '800 Դ'
+    },
+    {
+        id:10,
+        name: 'Քաբաբ տավար',
+        image:'/qabab.jpg',
+        description: '',
+        price: '1000 Դ'
+    },
+    {
+        id:11,
+        name: 'Իքիբիր',
+        image:'/iqibir.jpg',
+        description: '',
+        price: '1500 Դ'
+    },
+    {
+        id:12,
+        name: 'Իշխան',
+        image:'/ishxan.jpg',
+        description: '',
+        size: '(1 կգ)',
+        price: '4500 Դ'
+    },
+    {
+        id:12,
+        name: 'Թառափ',
+        image:'/tarap.jpg',
+        description: '',
+        size: '(1 կգ)',
+        price: '6500 Դ'
+    },
+    
+    
+]

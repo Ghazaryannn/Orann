@@ -2,13 +2,11 @@ import React from 'react'
 import { snacks } from '@/db'
 import Image from 'next/image'
 import Link from 'next/link';
-import { GrFormPrevious } from "react-icons/gr";
 import styles from './page.module.css'
 
 const Snacks = () => {
   return (
     <div className={styles.snacks}>
-        <Link href='/Menu'><p className={styles.prew}><span><GrFormPrevious /></span>Ուտեստներ</p></Link>
             {
                 snacks.map((prod) => {
                     return (
