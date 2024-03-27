@@ -210,6 +210,57 @@ export const grilled = [
         size: '(1 կգ)',
         price: '6500 Դ'
     },
-    
+]
+
+export const drinks = [
+    {
+        id:1,
+        name: 'Կոկա կոլա',
+        image:'/kola.jpg',
+        price: '350 Դ'
+    },
+    {
+        id:2,
+        name: 'Լիմոնադ',
+        image:'/limonad.jpg',
+        price: '300 Դ'
+    },
+    {
+        id:3,
+        name: 'Ռեդ Բուլ',
+        image:'/redbul.jpg',
+        price: '900 Դ'
+    },
+    {
+        id:4,
+        name: 'Հանքային ջուր',
+        image:'/hanqayin.jpg',
+        price: '350 Դ'
+    },
+    {
+        id:5,
+        name: 'Բնական հյութ',
+        image:'/bnakan.jpg',
+        price: '1100 Դ'
+    },
+    {
+        id:6,
+        name: 'Կոմպոտ',
+        image:'/kompot.jpg',
+        price: '1000 Դ'
+    },
+    {
+        id:7,
+        name: 'Թան տնական',
+        image:'/tan.jpg',
+        price: '900 Դ'
+    },
+    {
+        id:8,
+        name: 'Ակրոշկա',
+        image:'/akroshka.jpg',
+        price: '1200 Դ'
+    },
+
     
 ]

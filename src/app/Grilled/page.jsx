@@ -1,4 +1,7 @@
+'use client'
+
 import React from 'react'
+import { FloatButton } from 'antd';
 import { grilled } from '@/db'
 import Image from 'next/image'
 import styles from './page.module.css'
@@ -19,6 +22,7 @@ const Grilled = () => {
           })
       
       }
+            <FloatButton.BackTop />
     </div>
   )
 }

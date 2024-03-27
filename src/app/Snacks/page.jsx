@@ -1,7 +1,9 @@
+'use client'
+
 import React from 'react'
+import { FloatButton } from 'antd';
 import { snacks } from '@/db'
 import Image from 'next/image'
-import Link from 'next/link';
 import styles from './page.module.css'
 
 const Snacks = () => {
@@ -19,6 +21,7 @@ const Snacks = () => {
                     )
                 })
             }
+            <FloatButton.BackTop />
     </div>
   )
 }

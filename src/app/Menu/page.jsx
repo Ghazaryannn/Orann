@@ -54,9 +54,11 @@ const Menu = () => {
             {
                 drinks ?
                     <div className={styles.drinks}>
+                        <Link href='/Drinks'>
                         <div className={styles.drink}>
                             <h2>Զովացուցիչ ըմպելիքներ</h2>
                         </div>
+                        </Link>
                         <div className={styles.wine}>
                             <h2>Գինի</h2>
                         </div>
