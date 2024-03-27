@@ -8,6 +8,26 @@
     align-items: center;
     padding: 10px;
 }
+.snacks .prew {
+    background-color: #eeeeee51;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px;
+    height: 50px;
+    border-radius: 50px;
+    letter-spacing: .5px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.snacks .prew span{
+    margin-top: 5px;
+}
 .snack_card{
     width: 90%;
     height: 300px;
