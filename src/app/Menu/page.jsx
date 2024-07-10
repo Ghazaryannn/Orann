@@ -49,6 +49,11 @@ const Menu = () => {
                         <div className={styles.pasta}>
                             <h2>Պաստաներ</h2>
                         </div>
+                        <Link href='/Scrambled_eggs'>
+                        <div className={styles.scrambled_eggs}>
+                            <h2>Ձվածեղ</h2>
+                        </div>
+                        </Link>
                     </div> : ''
             }
             {

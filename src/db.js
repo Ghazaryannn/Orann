@@ -301,7 +301,7 @@ export const vodka = [
         id: 2,
         name: 'Օհանյան',
         image: '/ohanyan.jpg',
-        price: '900 Դ'
+        price: '9000 Դ'
     },
     {
         id: 3,
@@ -345,4 +345,44 @@ export const vodka = [
         image: '/land.jpg',
         price: '4000 Դ'
     },
+]
+export const scrambled = [
+    {
+        id:1,
+        name:'Աչք 2 ձվով',
+        image:'/dzvadzex1.jpg',
+        price: '600 Դ'
+    },
+    {
+        id:2,
+        name:'Լոլիկով',
+        image:'/dzvadzex2.jpg',
+        price: '800 Դ'
+    },
+    {
+        id:3,
+        name:'Ոլոռով',
+        image:'/dzvadzex3.jpg',
+        price: '800 Դ'
+    },
+    {
+        id:4,
+        name:'Բաստուրմայով',
+        image:'/dzvadzex4.jpg',
+        price: '1000 Դ'
+    },
+    {
+        id:5,
+        name:'Սպանապով',
+        image:'/dzvadzex5.jpg',
+        price: '1300 Դ'
+    },
+    {
+        id:5,
+        name:'Աջարական',
+        image:'/dzvadzex6.jpg',
+        price: '1500 Դ'
+    },
+
+    
 ]
