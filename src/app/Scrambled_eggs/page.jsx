@@ -1,5 +1,7 @@
+'use client'
 import React from 'react'
 import { scrambled } from '@/db'
+import Image from 'next/image'
 import styles from './page.module.css'
 
 const Scrambled = () => {
@@ -8,7 +10,7 @@ const Scrambled = () => {
         {
             scrambled.map((prod) => {
                 return (
-                <div className={styles.grilled_card} key={prod.id}>
+                <div className={styles.scrambled_card} key={prod.id}>
                   <Image width={300} height={200} src={prod.image} alt='img'/>
                   <h2>{prod.name}</h2>
                   <b>{prod.price}</b>
