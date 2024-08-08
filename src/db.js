@@ -635,3 +635,27 @@ export const Soup = [
         price:'700 Դ'
     },
 ]
+export const Xashlama = [
+    {
+        id:1,
+        name:'Տավարի',
+        image:'/tavari.jpg',
+        size:'300գ',
+        price:'700 Դ'
+    },
+    {
+        id:2,
+        name:'Իշխան',
+        image:'/ishxanxashlama.jpg',
+        size:'1կգ',
+        price:'4000 Դ'
+    },
+    {
+        id:3,
+        name:'Գավարի պոչից',
+        image:'/gavari.jpg',
+        size:'300գ',
+        price:'4500 Դ'
+    },
+    
+]

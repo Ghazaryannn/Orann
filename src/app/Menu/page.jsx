@@ -49,9 +49,11 @@ const Menu = () => {
                                 <h2>Ապուրներ</h2>
                             </div>
                         </Link>
-                        <div className={styles.xashlama}>
+                        <Link href='/Xashlama'>
+                            <div className={styles.xashlama}>
                                 <h2>Խաշլամա</h2>
-                        </div>
+                            </div>
+                        </Link>
                         <Link href='/Salads'>
                             <div className={styles.salate}>
                                 <h2>Աղցաներ</h2>
