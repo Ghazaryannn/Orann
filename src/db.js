@@ -383,6 +383,63 @@ export const scrambled = [
         image:'/dzvadzex6.jpg',
         price: '1500 Դ'
     },
+]
+export const Hot_dishes = [
+    {
+        id:1,
+        name:'Ժառկո',
+        image:'/jarko.jpg',
+        price:'1800 Դ'
+    },
+    {
+        id:2,
+        name:'Կերուսուսո',
+        image:'/kerusus.jpg',
+        price:'1800 Դ'
+    },
+    {
+        id:3,
+        name:'Դոլմա կաղամբով',
+        image:'/dolma.jpg',
+        size:'1 հատ',
+        price:'150 Դ'
+    },
+    {
+        id:4,
+        name:'Դոլմա տերևով',
+        image:'/terevov.jpg',
+        size:'1 հատ',
+        price:'150 Դ'
+    },
+    {
+        id:5,
+        name:'Չախոբիլի հավի',
+        image:'/chaxobili.jpg',
+        price:'3700 Դ'
+    },
+    {
+        id:6,
+        name:'Տավարի սուկի',
+        image:'/suki.jpg',
+        price:'4000 Դ'
+    },
+    {
+        id:7,
+        name:'Լցոնած կարտոֆիլ',
+        image:'/lconac.jpg',
+        price:'500 Դ'
+    },
+    {
+        id:8,
+        name:'Կծու թևիկներ',
+        image:'/tevikner.jpg',
+        price:'1500 Դ'
+    },
+    {
+        id:9,
+        name:'Բիվստրոգանով',
+        image:'/bivstro.jpg',
+        price:'2000 Դ'
+    },
 
-    
 ]

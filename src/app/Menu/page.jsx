@@ -25,18 +25,20 @@ const Menu = () => {
                 foods ?
                     <div className={styles.foods}>
                         <Link href='/Snacks'>
-                        <div className={styles.appetizer}>
+                            <div className={styles.appetizer}>
                                 <h2>Նախաուտեստներ</h2>
                             </div>
                         </Link>
                         <Link href='/Grilled'>
-                        <div className={styles.grilled}>
-                            <h2>Թոնրի խորոված</h2>
-                        </div>
+                            <div className={styles.grilled}>
+                                <h2>Թոնրի խորոված</h2>
+                            </div>
                         </Link>
-                        <div className={styles.hotdish}>
-                            <h2>Տաք ուտեստներ</h2>
-                        </div>
+                        <Link href='/Hotdish'>
+                            <div className={styles.hotdish}>
+                                <h2>Տաք ուտեստներ</h2>
+                            </div>
+                        </Link>
                         <div className={styles.salate}>
                             <h2>Աղցաներ</h2>
                         </div>
@@ -50,9 +52,9 @@ const Menu = () => {
                             <h2>Պաստաներ</h2>
                         </div>
                         <Link href='/Scrambled_eggs'>
-                        <div className={styles.scrambled_eggs}>
-                            <h2>Ձվածեղ</h2>
-                        </div>
+                            <div className={styles.scrambled_eggs}>
+                                <h2>Ձվածեղ</h2>
+                            </div>
                         </Link>
                     </div> : ''
             }
@@ -60,19 +62,19 @@ const Menu = () => {
                 drinks ?
                     <div className={styles.drinks}>
                         <Link href='/Drinks'>
-                        <div className={styles.drink}>
-                            <h2>Զովացուցիչ ըմպելիքներ</h2>
-                        </div>
+                            <div className={styles.drink}>
+                                <h2>Զովացուցիչ ըմպելիքներ</h2>
+                            </div>
                         </Link>
                         <Link href='/Wine'>
-                        <div className={styles.wine}>
-                            <h2>Գինի</h2>
-                        </div>
+                            <div className={styles.wine}>
+                                <h2>Գինի</h2>
+                            </div>
                         </Link>
                         <Link href='/Vodka'>
-                        <div className={styles.vodka}>
-                            <h2>Օղի</h2>
-                        </div>
+                            <div className={styles.vodka}>
+                                <h2>Օղի</h2>
+                            </div>
                         </Link>
                         <div className={styles.konyak}>
                             <h2>Կոնյակ</h2>
