@@ -552,3 +552,30 @@ export const Pastas = [
         price:'1700 Դ'
     },
 ]
+export const Frying = [
+    {
+        id:1,
+        name:'Ճուտ',
+        image:'/chutfri.jpg',
+        price:'1800 Դ'
+    },
+    {
+        id:2,
+        name:'Ֆրի',
+        image:'/fri.jpg',
+        price:'400 Դ'
+    },
+    {
+        id:3,
+        name:'Գյուղական կարտոֆիլ',
+        image:'/gyuxakan.jpg',
+        price:'1000 Դ'
+    },
+    {
+        id:4,
+        name:'Ճմուռ',
+        image:'/chmur.jpg',
+        price:'1000 Դ'
+    },
+
+]
