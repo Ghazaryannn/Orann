@@ -3,16 +3,15 @@ import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image';
 import { FloatButton } from 'antd';
-import { Hot_dishes } from '@/db';
+import { Salads } from '@/db';
 
-
-const Hotdish = () => {
+const Saladss = () => {
   return (
-        <div className={styles.hotdishes}>
+    <div className={styles.salades}>
       {
-            Hot_dishes.map((prod) => {
+            Salads.map((prod) => {
               return (
-                  <div className={styles.hotdishes_card} key={prod.id}>
+                  <div className={styles.salades_card} key={prod.id}>
                   <Image width={300} height={200} src={prod.image} alt='img'/>
                   <h2>{prod.name}</h2>
                   <p>{prod.size}</p>
@@ -27,4 +26,4 @@ const Hotdish = () => {
   )
 }
 
-export default Hotdish
+export default Saladss

@@ -441,5 +441,37 @@ export const Hot_dishes = [
         image:'/bivstro.jpg',
         price:'2000 Դ'
     },
+]
+export const Salads = [
+    {
+        id:1,
+        name:'Կեսար',
+        image:'/kesar.jpg',
+        price:'1500 Դ'
+    },
+    {
+        id:2,
+        name:'Մայրաքաղաքային',
+        image:'/mayraqaxaqayin.jpg',
+        price:'1700 Դ'
+    },
+    {
+        id:3,
+        name:'Ամառային',
+        image:'/amarayin.jpg',
+        price:'1200 Դ'
+    },
+    {
+        id:4,
+        name:'Հունական',
+        image:'/hunakan.jpg',
+        price:'1800 Դ'
+    },
+    {
+        id:5,
+        name:'Թաբուլե',
+        image:'/tabule.jpg',
+        price:'800 Դ'
+    },
 
 ]
