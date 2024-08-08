@@ -49,12 +49,14 @@ const Menu = () => {
                                 <h2>Պահածոներ</h2>
                             </div>
                         </Link>
-                        <div className={styles.souse}>
-                            <h2>Սննդային հավելումներ</h2>
-                        </div>
                         <div className={styles.pasta}>
                             <h2>Պաստաներ</h2>
                         </div>
+                        <Link href='/Additives'>
+                            <div className={styles.souse}>
+                                <h2>Սննդային հավելումներ</h2>
+                            </div>
+                        </Link>
                         <Link href='/Scrambled_eggs'>
                             <div className={styles.scrambled_eggs}>
                                 <h2>Ձվածեղ</h2>

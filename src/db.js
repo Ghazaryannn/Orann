@@ -500,3 +500,35 @@ export const Cans = [
         price:'500 Դ'
     }
 ]
+export const Food_additives = [
+    {
+        id:1,
+        name:'Նաշարաբ',
+        image:'/nasharab.jpg',
+        price:'300 Դ'
+    },
+    {
+        id:2,
+        name:'Սպիտակ սոուս',
+        image:'/spitak.jpg',
+        price:'300 Դ'
+    },
+    {
+        id:3,
+        name:'Կարմիր սոուս',
+        image:'/karmir.jpg',
+        price:'300 Դ'
+    },
+    {
+        id:4,
+        name:'Թթվասեր',
+        image:'/ttvaser.jpg',
+        price:'300 Դ'
+    },
+    {
+        id:5,
+        name:'Մանանեխ',
+        image:'/mananex.jpg',
+        price:'200 Դ'
+    },
+]
