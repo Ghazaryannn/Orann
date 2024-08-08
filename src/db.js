@@ -532,3 +532,23 @@ export const Food_additives = [
         price:'200 Դ'
     },
 ]
+export const Pastas = [
+    {
+        id:1,
+        name:'Սպագետի կարբոնարա',
+        image:'/karbonara.jpg',
+        price:'1600 Դ'
+    },
+    {
+        id:2,
+        name:'Սպագետի բոլոնեզ',
+        image:'/bolonez.jpg',
+        price:'1600 Դ'
+    },
+    {
+        id:3,
+        name:'Պենե արաբյատա',
+        image:'/arabyata.jpg',
+        price:'1700 Դ'
+    },
+]
