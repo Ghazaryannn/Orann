@@ -44,6 +44,9 @@ const Menu = () => {
                                 <h2>Տապակներ</h2>
                             </div>
                         </Link>
+                        <div className={styles.soup}>
+                            <h2>Ապուրներ</h2>
+                        </div>
                         <Link href='/Salads'>
                             <div className={styles.salate}>
                                 <h2>Աղցաներ</h2>
