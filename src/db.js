@@ -579,3 +579,59 @@ export const Frying = [
     },
 
 ]
+export const Soup = [
+    {
+        id:1,
+        name:'Խաշ',
+        image:'/xash.jpg',
+        price:'2500 Դ'
+    },
+    {
+        id:2,
+        name:'Փիթի',
+        image:'/piti.jpg',
+        price:'1300 Դ'
+    },
+    {
+        id:3,
+        name:'Շորվա',
+        image:'/shorva.jpg',
+        price:'2000 Դ'
+    },
+    {
+        id:4,
+        name:'Հավով ապուր',
+        image:'/havov.jpg',
+        price:'1300 Դ'
+    },
+    {
+        id:5,
+        name:'Բորշ',
+        image:'/borsh.jpg',
+        price:'1500 Դ'
+    },
+    {
+        id:6,
+        name:'Սոլյանկա',
+        image:'/salyonka.jpg',
+        price:'1300 Դ'
+    },
+    {
+        id:7,
+        name:'Հարիսա',
+        image:'/harisa.jpg',
+        price:'1000 Դ'
+    },
+    {
+        id:8,
+        name:'Սնկով ապուր',
+        image:'/snkov.jpg',
+        price:'1200 Դ'
+    },
+    {
+        id:9,
+        name:'Թանապուր',
+        image:'/tanapur.jpg',
+        price:'700 Դ'
+    },
+]
