@@ -39,7 +39,7 @@ const Menu = () => {
                                 <h2>Տաք ուտեստներ</h2>
                             </div>
                         </Link>
-                        <Link href='/Saladss'>
+                        <Link href='/Salads'>
                             <div className={styles.salate}>
                                 <h2>Աղցաներ</h2>
                             </div>
