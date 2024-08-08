@@ -11,19 +11,19 @@ const Cards = () => {
             <div className={styles.card}>
             <FaHome className={styles.home} />
                 <h3>Փայտե <span>տնակներ</span></h3>
-                <p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio illum quam fugiat veritatis odit. Eaque, animi enim, error libero odit alias, in repellendus sapiente neque dolor repudiandae adipisci blanditiis perspiciatis?</p>
+                <p className={styles.p}>Սա այն վայրն է, որտեղ դուք կարող եք կտրվել առօրյա հոգսերից, վայելել պարզությունն ու հարմարավետությունը, ինչպես նաև համեղ ընթրել սիրելիների շրջապատում:</p>
                 <Link href='/Cabins'><button className={styles.btnn}>Տեսնել</button></Link>
             </div>
             <div className={styles.card}>
                 <TbBuildingCottage className={styles.home} />
                 <h3>Հարմարավետ <span>քոթեջներ</span></h3>
-                <p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio illum quam fugiat veritatis odit. Eaque, animi enim, error libero odit alias, in repellendus sapiente neque dolor repudiandae adipisci blanditiis perspiciatis?</p>
+                <p className={styles.p}>Այստեղ հանգստանալը ձեզ կտա  հանգստի զգացողություն, կարողություն`ուժերը վերականգնելու և բնությունը վայելելու բացառիկ հնարավորություն։</p>
                 <Link href='/Cottage'><button className={styles.btnn}>Տեսնել</button></Link>
             </div>
             <div className={styles.card}>
                 <LuPartyPopper className={styles.party} />
                 <h3>Հանդիսությունների <span>սրահ</span></h3>
-                <p className={styles.p}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio illum quam fugiat veritatis odit. Eaque, animi enim, error libero odit alias, in repellendus sapiente neque dolor repudiandae adipisci blanditiis perspiciatis?</p>
+                <p className={styles.p}>Մեր  սրահը  նախատեսված է տարբեր միջոցառումներ անցկացնելու համար՝ հարսանիքներ, տարեդարձներ, կորպորատիվ միջոցառումներ, կոնֆերանսներ և այլ տոնակատարություններ:</p>
                 <Link href='/Banquet'><button className={styles.btnn}>Տեսնել</button></Link>
             </div>
         </div>
