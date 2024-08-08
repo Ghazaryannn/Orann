@@ -44,9 +44,11 @@ const Menu = () => {
                                 <h2>Աղցաներ</h2>
                             </div>
                         </Link>
-                        <div className={styles.cans}>
-                            <h2>Պահածոներ</h2>
-                        </div>
+                        <Link href='/Cans'>
+                            <div className={styles.cans}>
+                                <h2>Պահածոներ</h2>
+                            </div>
+                        </Link>
                         <div className={styles.souse}>
                             <h2>Սննդային հավելումներ</h2>
                         </div>

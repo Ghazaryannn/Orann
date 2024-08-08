@@ -473,5 +473,30 @@ export const Salads = [
         image:'/tabule.jpg',
         price:'800 Դ'
     },
-
+]
+export const Cans = [
+    {
+        id:1,
+        name:'Աջիկա',
+        image:'/ajika.jpg',
+        price:'700 Դ'
+    },
+    {
+        id:2,
+        name:'Գազարով պերեց',
+        image:'/perec.jpg',
+        price:'700 Դ'
+    },
+    {
+        id:3,
+        name:'Իմամ բայալդի',
+        image:'/bayaldi.jpg',
+        price:'500 Դ'
+    },
+    {
+        id:4,
+        name:'Ախորժակ',
+        image:'/axorjak.jpg',
+        price:'500 Դ'
+    }
 ]
