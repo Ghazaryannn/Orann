@@ -652,7 +652,7 @@ export const Xashlama = [
     },
     {
         id:3,
-        name:'Գավարի պոչից',
+        name:'Տավարի պոչից',
         image:'/gavari.jpg',
         size:'300գ',
         price:'4500 Դ'
