@@ -178,14 +178,14 @@ export const grilled = [
         name: 'Քաբաբ հավ',
         image: '/qabab.jpg',
         description: '',
-        price: '800 Դ'
+        price: '1000 Դ'
     },
     {
         id: 10,
         name: 'Քաբաբ տավար',
         image: '/qabab.jpg',
         description: '',
-        price: '1000 Դ'
+        price: '1200 Դ'
     },
     {
         id: 11,
