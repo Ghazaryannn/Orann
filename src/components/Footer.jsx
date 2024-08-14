@@ -10,8 +10,8 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footer_left}>
         <p className={styles.about}>
-          <span> About the restaurant</span> Ut congue augue non tellus bibendum, in varius tellus condimentum. In scelerisque nibh tortor, sed rhoncus odio condimentum in. Sed sed est ut sapien ultrices eleifend. Integer tellus est, vehicula eu lectus tincidunt,
-          ultricies feugiat leo. Suspendisse tellus elit, pharetra in hendrerit ut, aliquam quis augue. Nam ut nibh mollis, tristique ante sed, viverra massa.
+          <span> About the restaurant</span> Փնտրու՞մ եք վայր, որտեղ կարող եք վայելել հիանալի խոհանոց օրվա ցանկացած ժամի,ապա բարի գալուստ մեր ռեստորան։Մենք աշխատում ենք ձեզ համար 24/7: Լինի դա առավոտյան նախաճաշ, թե ուշ ընթրիք երկար և  աշխատանքային հոգնած օրվանից հետո, մենք միշտ ուրախ ենք ձեզ մատուցել թարմ պատրաստված ուտեստներ: Այցելեք մեզ և վայելեք հարմարավետությունն ու հաճելի մթնոլորտը, երբ ցանկանում եք
+          Սիրով սպասում ենք Օրրան ռեստորան
         </p>
         <div className={styles.icons}>
           <a href=""><FaInstagram /></a>
