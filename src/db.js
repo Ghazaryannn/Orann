@@ -20,7 +20,7 @@ export const snacks = [
         image: '/chanax.jpg',
         description: '',
         size: '(200 գ)',
-        price: '1000 Դ'
+        price: '1200 Դ'
     },
     {
         id: 4,
@@ -55,7 +55,7 @@ export const snacks = [
         name: 'Լիմոն',
         image: '/limon.jpg',
         description: '',
-        price: '300 Դ'
+        price: '400 Դ'
     },
     {
         id: 9,
@@ -200,7 +200,7 @@ export const grilled = [
         image: '/ishxan.jpg',
         description: '',
         size: '(1 կգ)',
-        price: '4500 Դ'
+        price: '4700 Դ'
     },
     {
         id: 12,
@@ -208,7 +208,7 @@ export const grilled = [
         image: '/tarap.jpg',
         description: '',
         size: '(1 կգ)',
-        price: '6500 Դ'
+        price: '7300 Դ'
     },
 ]
 
@@ -229,7 +229,7 @@ export const drinks = [
         id: 3,
         name: 'Ռեդ Բուլ',
         image: '/redbul.jpg',
-        price: '900 Դ'
+        price: '1000 Դ'
     },
     {
         id: 4,
@@ -286,7 +286,7 @@ export const wine = [
         id: 4,
         name: 'Կարաս կարմիր',
         image: '/karas.jpg',
-        price: '2500 Դ'
+        price: '6500 Դ'
     },
 ]
 
@@ -307,13 +307,13 @@ export const vodka = [
         id: 3,
         name: 'Օհանյան կարմիր',
         image: '/ohanyankarmir.jpg',
-        price: '6500 Դ'
+        price: '7000 Դ'
     },
     {
         id: 4,
         name: 'Օրգանիկ',
         image: '/organic.jpg',
-        price: '7600 Դ'
+        price: '7500 Դ'
     },
     {
         id: 5,
@@ -331,13 +331,13 @@ export const vodka = [
         id: 7,
         name: 'Ստալիչնայա',
         image: '/stalichnaya.jpg',
-        price: '7500 Դ'
+        price: '8500 Դ'
     },
     {
         id: 8,
         name: 'Ցարսկի',
         image: '/carskaya.jpg',
-        price: '5500 Դ'
+        price: '6000 Դ'
     },
     {
         id: 9,
@@ -389,13 +389,13 @@ export const Hot_dishes = [
         id:1,
         name:'Ժառկո',
         image:'/jarko.jpg',
-        price:'1800 Դ'
+        price:'2000 Դ'
     },
     {
         id:2,
         name:'Կերուսուսո',
         image:'/kerusus.jpg',
-        price:'1800 Դ'
+        price:'2000 Դ'
     },
     {
         id:3,
@@ -590,13 +590,13 @@ export const Soup = [
         id:2,
         name:'Փիթի',
         image:'/piti.jpg',
-        price:'1300 Դ'
+        price:'1800 Դ'
     },
     {
         id:3,
         name:'Շորվա',
         image:'/shorva.jpg',
-        price:'2000 Դ'
+        price:'2500 Դ'
     },
     {
         id:4,
@@ -641,21 +641,21 @@ export const Xashlama = [
         name:'Տավարի',
         image:'/tavari.jpg',
         size:'300գ',
-        price:'700 Դ'
+        price:'3300 Դ'
     },
     {
         id:2,
         name:'Իշխան',
         image:'/ishxanxashlama.jpg',
         size:'1կգ',
-        price:'4000 Դ'
+        price:'4700 Դ'
     },
     {
         id:3,
         name:'Տավարի պոչից',
         image:'/gavari.jpg',
         size:'300գ',
-        price:'4500 Դ'
+        price:'4000 Դ'
     },
     
 ]
