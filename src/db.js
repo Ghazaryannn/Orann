@@ -1,54 +1,53 @@
 export const snacks = [
     {
         id: 1,
-        name: 'Հաց',
-        image: '/hac.jpg',
+        name: 'Հացի տեսականի',
+        image: '/hacc.jpg',
         description: '',
         price: '600 Դ'
     },
     {
         id: 2,
         name: 'Պանիր ոչխարի',
-        image: '/panir_vochxari.jpg',
+        image: '/vvvvpan.jpg',
         description: '',
         size: '(200 գ)',
-        price: '1000 Դ'
+        price: '1300 Դ'
     },
     {
         id: 3,
-        name: 'Պանիր չանախ',
-        image: '/chanax.jpg',
+        name: 'Հայկական պանրի տեսականի',
+        image: '/panir.jpg',
         description: '',
-        size: '(200 գ)',
-        price: '1200 Դ'
+        price: '1500 Դ'
     },
     {
         id: 4,
         name: 'Ռեժան',
-        image: '/rejan.jpg',
+        image: '/rejann.jpg',
         description: '',
-        price: '600 Դ'
+        price: '900 Դ'
     },
     {
         id: 5,
         name: 'Քամած մածուն ',
-        image: '/macun.jpg',
+        image: '/qamac.jpg',
         description: '',
-        price: '500 Դ'
+        price: '700 Դ'
     },
     {
         id: 6,
         name: 'Թթվի տեսականի',
-        image: '/ttu.jpg',
+        image: '/ttuu.jpg',
         description: '',
-        price: '1200 Դ'
+        price: '1500 Դ'
     },
     {
         id: 7,
-        name: 'Կանաչի',
-        image: '/kanachi.jpg',
+        name: 'Կանաչի + Կծու բիբար',
+        image: '/kanachii.jpg',
         description: '',
-        price: '800 Դ'
+        price: '1200 Դ'
     },
     {
         id: 8,
@@ -59,61 +58,39 @@ export const snacks = [
     },
     {
         id: 9,
-        name: 'Ձիթապտուղ',
-        image: '/zeytun.jpg',
+        name: 'Ձիթապտուղ + Լիմոն',
+        image: '/zeytunn.jpg',
         description: '',
-        price: '800 Դ'
-    },
-    {
-        id: 10,
-        name: 'Մոժոժ',
-        image: '/mojoj.jpg',
-        description: '',
-        price: '600 Դ'
+        price: '1200 Դ'
     },
     {
         id: 11,
         name: 'Ղաուրմա',
-        image: '/xaurma.jpg',
+        image: '/xaurmaa.jpg',
         description: '',
         size: '(200 գ)',
         price: '1500 Դ'
     },
     {
         id: 12,
-        name: 'Բլինչիկ մսով',
-        image: '/blinchik.jpg',
+        name: 'Լօլիկի մարինատ',
+        image: '/lolikk.jpg',
         description: '',
-        price: '400 Դ'
+        price: '1300 Դ'
     },
-    {
-        id: 13,
-        name: 'Մսի տեսականի',
-        image: '/msi_tesakani.jpg',
-        description: '',
-        price: '4000 Դ'
-    },
-    {
-        id: 14,
-        name: 'Տավարի լեզու',
-        image: '/lezu.jpg',
-        description: '',
-        size: '(120 գ)',
-        price: '500 Դ'
-    },
-    {
-        id: 15,
-        name: 'Հումուս',
-        image: '/humus.jpg',
-        description: '',
-        size: '(100 գ)',
-        price: '500 Դ'
-    },
+   
 ]
 
 export const grilled = [
     {
         id: 1,
+        name: 'Տավարի Չալաղաջ',
+        image: '/tavar_chalaxach.jpg',
+        description: '',
+        price: '1300 Դ'
+    },
+    {
+        id: 2,
         name: 'Խոզի խառը',
         image: '/xoz_.jpg',
         description: '',
@@ -121,7 +98,7 @@ export const grilled = [
         price: '6500 Դ'
     },
     {
-        id: 2,
+        id: 3,
         name: 'Խոզի չալաղաջ',
         image: '/xozi_.jpg',
         description: '',
@@ -129,7 +106,7 @@ export const grilled = [
         price: '7500 Դ'
     },
     {
-        id: 3,
+        id: 4,
         name: 'Հորթ',
         image: '/hortt_.png',
         description: '',
@@ -137,7 +114,7 @@ export const grilled = [
         price: '3700 Դ'
     },
     {
-        id: 4,
+        id: 5,
         name: 'Գառի խորոված',
         image: '/gar_.png',
         description: '',
@@ -145,7 +122,7 @@ export const grilled = [
         price: '3100 Դ'
     },
     {
-        id: 5,
+        id: 6,
         name: 'Խորովածի սեթ',
         image: '/set_.png',
         description: '',
@@ -153,7 +130,7 @@ export const grilled = [
         price: '16 000 Դ'
     },
     {
-        id: 6,
+        id: 7,
         name: 'Թոնրի հավ',
         image: '/tonrihav_.jpg',
         description: '',
@@ -161,7 +138,7 @@ export const grilled = [
         price: '3000 Դ'
     },
     {
-        id: 7,
+        id: 8,
         name: 'Նապաստակ թոնրի',
         image: '/napo_.png',
         size: '(1 կգ.)',
@@ -169,7 +146,7 @@ export const grilled = [
         price: '6500 Դ'
     },
     {
-        id: 8,
+        id: 9,
         name: 'Լոր',
         image: '/lor_.png',
          size: '(1 հատ)',
@@ -177,7 +154,7 @@ export const grilled = [
         price: '1200 Դ'
     },
     {
-        id: 9,
+        id: 10,
         name: 'Խորոված սունկ',
         image: '/sunk_.jpg',
         size: '(1 բաժին)',
@@ -185,7 +162,7 @@ export const grilled = [
         price: '1500 Դ'
     },
     {
-        id: 10,
+        id: 11,
         name: 'Պլեճ',
         image: '/plech_.png',
         size: '(1 բաժին)',
@@ -193,7 +170,7 @@ export const grilled = [
         price: '500 Դ'
     },
     {
-        id: 11,
+        id: 12,
         name: 'Իշխան',
         image: '/ishxan_.jpg',
         description: '',
@@ -201,7 +178,7 @@ export const grilled = [
         price: '4700 Դ'
     },
     {
-        id: 12,
+        id: 13,
         name: 'Թառափ',
         image: '/tapar_.png',
         description: '',
@@ -209,28 +186,28 @@ export const grilled = [
         price: '7300 Դ'
     },
     {
-        id: 13,
+        id: 14,
         name: 'Քաբաբ հավ',
         image: '/qababhav_.png',
         description: '',
         price: '1000 Դ'
     },
     {
-        id: 14,
+        id: 15,
         name: 'Քաբաբ տավար',
         image: '/qababtavar_.jpg',
         description: '',
         price: '1200 Դ'
     },
     {
-        id: 15,
+        id: 16,
         name: 'Իքիբիր',
         image: '/iq_.png',
         description: '',
         price: '1500 Դ'
     },
     {
-        id: 16,
+        id: 17,
         name: 'Շաուրմա',
         image: '/shaurma_.jpg',
         description: '',
@@ -421,7 +398,7 @@ export const Hot_dishes = [
         id:2,
         name:'Կերուսուսո',
         image:'/kerusus_.jpg',
-        price:'2200 Դ'
+        price:'2500 Դ'
     },
     {
         id:3,
@@ -431,12 +408,6 @@ export const Hot_dishes = [
         price:'1800 Դ'
     },
     {
-        id:4,
-        name:'Չախոբիլի հավի',
-        image:'/chaxobili.jpg',
-        price:'3700 Դ'
-    },
-    {
         id:5,
         name:'Չախոբիլի ճագարի',
         image:'/chagar_.png',
@@ -444,43 +415,43 @@ export const Hot_dishes = [
         price:'6900 Դ'
     },
     {
-        id:5,
+        id:6,
         name:'Ժուլյեն',
         image:'/julyen_.png',
         price:'1500 Դ'
     },
     {
-        id:5,
+        id:7,
         name:'Բեֆստրոգանով',
         image:'/befstrganof_.jpg',
         price:'2200 Դ'
     },
     {
-        id:5,
+        id:8,
         name:'Տնական աքլոր շիլայով',
         image:'/aqlor_.png',
         price:'11 000 Դ'
     },
     {
-        id:7,
+        id:9,
         name:'Լցոնած կարտոֆիլ',
         image:'/lconac_.png',
         price:'1000 Դ'
     },
     {
-        id:8,
+        id:10,
         name:'Կծու թևիկներ',
         image:'/kcu_.png',
         price:'1500 Դ'
     },
     {
-        id:8,
+        id:11,
         name:'Հորթի թուշ',
-        image:'/hort_.png',
+        image:'/tush.jpg',
         price:'3700 Դ'
     },
     {
-        id:8,
+        id:12,
         name:'Արիշտա ղավուրմայով',
         image:'/arishta_.png',
         price:'2500 Դ'
@@ -489,42 +460,48 @@ export const Hot_dishes = [
 export const Salads = [
     {
         id:1,
+        name:'Ռոզբիֆ',
+        image:'/roz.jpg',
+        price:'3500 Դ'
+    },
+    {
+        id:2,
         name:'Կեսար',
         image:'/kesar_.png',
         price:'1900 Դ'
     },
     {
-        id:2,
+        id:3,
         name:'Մայրաքաղաքային',
         image:'/qaxaq_.png',
         price:'1700 Դ'
     },
     {
-        id:3,
+        id:4,
         name:'Ամառային',
         image:'/amarayin_.png',
         price:'1200 Դ'
     },
     {
-        id:4,
+        id:5,
         name:'Հունական',
         image:'/hunakan_.jpg',
         price:'1800 Դ'
     },
     {
-        id:5,
+        id:6,
         name:'Թաբուլե',
         image:'/tabule_.png',
         price:'800 Դ'
     },
     {
-        id:5,
+        id:7,
         name:'Կեսար ծովախեցգետնով',
         image:'/cov_.png',
         price:'3200 Դ'
     },
     {
-        id:5,
+        id:8,
         name:'Հավի մսով և պոպոքով',
         image:'/popok_.png',
         price:'1500 Դ'
@@ -609,7 +586,7 @@ export const Frying = [
         name:'Ճմուռ',
         image:'/chmur_.png',
         size: '(1 բաժին)',
-        price:'1000 Դ'
+        price:'1500 Դ'
     },
 
 ]

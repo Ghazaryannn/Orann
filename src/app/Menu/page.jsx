@@ -59,11 +59,6 @@ const Menu = () => {
                                 <h2>Աղցաներ</h2>
                             </div>
                         </Link>
-                        <Link href='/Cans'>
-                            <div className={styles.cans}>
-                                <h2>Պահածոներ</h2>
-                            </div>
-                        </Link>
                         <Link href='/Pastas'>
                             <div className={styles.pasta}>
                                 <h2>Պաստաներ</h2>
