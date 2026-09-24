@@ -87,7 +87,7 @@ export const grilled = [
         name: 'Տավարի Չալաղաջ',
         image: '/tavar_chalaxach.jpg',
         description: '',
-        price: '1300 Դ'
+        price: '13000 Դ'
     },
     {
         id: 2,
